@@ -9,7 +9,7 @@ def calcular_saudade(nome):
 
 def main():
     st.title("Controle de Saudade do Andrey")
-    nome = st.text_input("Digite o nome da pessoa que você sente saudade:")
+    nome = st.text_input("Digite o nome da pessoa que o Andrey sente saudade:")
     
     if nome:
         nivel_saudade = calcular_saudade(nome)
